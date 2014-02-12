@@ -2,7 +2,7 @@ Source: x11proto-dmx
 Section: x11
 Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Uploaders: David Nusinow <dnusinow@debian.org>, Andres Salomon <dilinger@debian.org>, Julien Cristau <jcristau@debian.org>
+Uploaders: David Nusinow <dnusinow@debian.org>, Andres Salomon <dilinger@debian.org>, Cyril Brulebois <kibi@debian.org>
 Build-Depends:
  debhelper (>= 5.0.0),
  automake,
@@ -13,6 +13,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-xorg/proto/x11proto-dmx.git
 
 Package: x11proto-dmx-dev
 Architecture: all
+Multi-Arch: foreign
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: libdmx-dev (<< 1:1.0.99.1)
 Description: X11 Distributed Multihead X extension wire protocol
@@ -23,7 +24,5 @@ Description: X11 Distributed Multihead X extension wire protocol
  .
  More information about X.Org can be found at:
  <URL:http://www.X.org>
- <URL:http://xorg.freedesktop.org>
- <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
  .
  This package is built from the X.org dmxproto proto module.

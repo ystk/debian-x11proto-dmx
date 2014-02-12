@@ -1,3 +1,23 @@
+x11proto-dmx (1:2.3.1-2) unstable; urgency=low
+
+  * Mark x11proto-dmx-dev Multi-Arch: foreign
+  * Install dmxproto.pc to /usr/share/pkgconfig
+
+ -- Steve Langasek <vorlon@debian.org>  Tue, 15 Nov 2011 13:38:24 -0800
+
+x11proto-dmx (1:2.3.1-1) unstable; urgency=low
+
+  [ Julien Cristau ]
+  * Rename the build directory to not include DEB_BUILD_GNU_TYPE for no
+    good reason.  Thanks, Colin Watson!
+  * Remove myself from Uploaders
+
+  [ Cyril Brulebois ]
+  * New upstream release.
+  * Add myself to Uploaders.
+
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Jan 2011 16:50:04 +0100
+
 x11proto-dmx (1:2.3-2) unstable; urgency=low
 
   * Upload to unstable.
